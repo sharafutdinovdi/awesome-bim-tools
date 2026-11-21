@@ -1,0 +1,19 @@
+{
+  "slug": "dynamorevit",
+  "name": "DynamoRevit",
+  "vendor": "DynamoDS",
+  "category": "automation",
+  "platforms": [
+    "Revit",
+    "Dynamo"
+  ],
+  "pricing": "open-source",
+  "oneLiner": "Provides a Revit plugin and a library of Dynamo nodes.",
+  "website": "https://github.com/DynamoDS/DynamoRevit",
+  "addedAt": "2026-11-21",
+  "source": "community",
+  "sourceUrl": "https://github.com/sharafutdinovdi/awesome-bim-tools/issues/1",
+  "license": "Apache-2.0",
+  "githubRepo": "DynamoDS/DynamoRevit",
+  "logo": "logos/dynamorevit.webp"
+}

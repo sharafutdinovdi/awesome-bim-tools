@@ -30,6 +30,7 @@ See the [catalog schema](schema/catalog.schema.json) and [tool schema](schema/to
 | --- | --- | --- | --- | --- |
 | [BIM Project Suite](<https://ctcsoftware.com/product/bim-project-suite>) | CTC Software | Revit | freemium | Bundles Revit tools for sheet production, model data editing and project analysis. |
 | [Dynamo](<https://github.com/DynamoDS/Dynamo>) | Autodesk and Dynamo contributors | Revit, Standalone | open-source | Provides visual programming and textual scripting for computational design and automation. |
+| [DynamoRevit](<https://github.com/DynamoDS/DynamoRevit>) | DynamoDS | Revit, Dynamo | open-source | Provides a Revit plugin and a library of Dynamo nodes. |
 | [Ideate Automation](<https://ideatesoftware.com/ideate-automation>) | Ideate Software, GRAITEC Group | Revit | paid | Runs background Revit tasks such as exports, data extraction and warning reports. |
 | [Bonus Tools](<https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161&amp;appLang=en&amp;os=Win64>) | KiwiCodes | Revit | paid | Bundles Revit commands for sheets, families, parameters, Excel exchange and quality control. |
 | [Naviate Accelerate](<https://store.naviate.com/products/naviate-accelerate>) | Naviate | Revit | paid | Provides Revit parameter editing, project cleanup, publishing and productivity commands. |

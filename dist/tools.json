@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-11-21T00:00:00.000Z",
-  "count": 45,
+  "count": 46,
   "tools": [
     {
       "slug": "archeform-bim",
@@ -145,6 +145,25 @@
       "addedAt": "2026-11-21",
       "source": "editor",
       "sourceUrl": "https://github.com/DynamoDS/Dynamo"
+    },
+    {
+      "slug": "dynamorevit",
+      "name": "DynamoRevit",
+      "vendor": "DynamoDS",
+      "category": "automation",
+      "platforms": [
+        "Revit",
+        "Dynamo"
+      ],
+      "pricing": "open-source",
+      "license": "Apache-2.0",
+      "oneLiner": "Provides a Revit plugin and a library of Dynamo nodes.",
+      "website": "https://github.com/DynamoDS/DynamoRevit",
+      "githubRepo": "DynamoDS/DynamoRevit",
+      "addedAt": "2026-11-21",
+      "source": "community",
+      "sourceUrl": "https://github.com/sharafutdinovdi/awesome-bim-tools/issues/1",
+      "logo": "logos/dynamorevit.webp"
     },
     {
       "slug": "enscape",
