@@ -1,0 +1,17 @@
+{
+  "slug": "mcp-servers-for-revit",
+  "name": "MCP Servers for Revit",
+  "vendor": "mcp-servers-for-revit / Sparx contributors",
+  "category": "ai-mcp",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "MIT",
+  "oneLiner": "Connects MCP clients to Revit through a TypeScript server, Revit plugin and command set.",
+  "website": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit",
+  "githubRepo": "mcp-servers-for-revit/mcp-servers-for-revit",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit"
+}

@@ -1,0 +1,41 @@
+name: Change or remove a listing
+description: Request a correction or removal for a listed tool.
+title: 'Change: '
+labels: [change-request]
+body:
+  - type: input
+    id: listing
+    attributes:
+      label: Tool name or listing URL
+    validations:
+      required: true
+  - type: dropdown
+    id: request
+    attributes:
+      label: What should change?
+      options:
+        - Correct information
+        - Remove the entry
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Request details
+      description: Describe what to correct or why to remove the entry. Include only public information.
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to the tool
+      options:
+        - I make it
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: maker-proof
+    attributes:
+      label: Public evidence that you make the tool
+      description: If applicable, link to a commit, organization profile or another public source.

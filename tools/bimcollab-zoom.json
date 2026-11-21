@@ -1,0 +1,15 @@
+{
+  "slug": "bimcollab-zoom",
+  "name": "BIMcollab Zoom",
+  "vendor": "BIMcollab",
+  "category": "qa-coordination",
+  "platforms": [
+    "Standalone"
+  ],
+  "pricing": "freemium",
+  "oneLiner": "Federates models and provides clash detection, IDS validation and coordination workflows.",
+  "website": "https://www.bimcollab.com/en/plans/bimcollab-modelchecking",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.bimcollab.com/en/plans/bimcollab-modelchecking"
+}

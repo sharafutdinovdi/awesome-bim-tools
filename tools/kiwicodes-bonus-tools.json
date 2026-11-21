@@ -1,0 +1,16 @@
+{
+  "slug": "kiwicodes-bonus-tools",
+  "name": "Bonus Tools",
+  "vendor": "KiwiCodes",
+  "category": "automation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Bundles Revit commands for sheets, families, parameters, Excel exchange and quality control.",
+  "website": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161&appLang=en&os=Win64",
+  "appStoreUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161&appLang=en&os=Win64",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161&appLang=en&os=Win64"
+}

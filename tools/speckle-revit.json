@@ -1,0 +1,17 @@
+{
+  "slug": "speckle-revit",
+  "name": "Speckle for Revit",
+  "vendor": "Speckle",
+  "category": "interop-ifc",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "Apache-2.0",
+  "oneLiner": "Exchanges Revit geometry and object data with other design tools through Speckle connectors.",
+  "website": "https://speckle.systems/integrations/revit",
+  "githubRepo": "specklesystems/speckle-sharp-connectors",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://speckle.systems/integrations/revit"
+}

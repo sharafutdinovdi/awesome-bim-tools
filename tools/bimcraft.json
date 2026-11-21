@@ -1,0 +1,17 @@
+{
+  "slug": "bimcraft",
+  "name": "BIMCraft",
+  "vendor": "IPedrax and contributors",
+  "category": "interop-ifc",
+  "platforms": [
+    "Standalone"
+  ],
+  "pricing": "open-source",
+  "license": "MIT OR Apache-2.0",
+  "oneLiner": "Open-source BIM authoring app in Rust that follows the Revit workflow and reads RVT and RFA files.",
+  "website": "https://github.com/IPedrax/BIMCraft",
+  "githubRepo": "IPedrax/BIMCraft",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/IPedrax/BIMCraft"
+}

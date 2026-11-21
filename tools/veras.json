@@ -1,0 +1,17 @@
+{
+  "slug": "veras",
+  "name": "Veras",
+  "vendor": "Chaos / EvolveLAB",
+  "category": "ai-mcp",
+  "platforms": [
+    "Revit",
+    "Forma",
+    "Web"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Generates AI visualizations from design geometry, sketches and reference images.",
+  "website": "https://www.chaos.com/veras",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.chaos.com/veras"
+}

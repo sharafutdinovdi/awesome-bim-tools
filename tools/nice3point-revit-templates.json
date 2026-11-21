@@ -1,0 +1,17 @@
+{
+  "slug": "nice3point-revit-templates",
+  "name": "Nice3point Revit Templates",
+  "vendor": "Nice3point",
+  "category": "developer",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "MIT",
+  "oneLiner": "Scaffolds .NET Revit add-in projects with multi-version project templates.",
+  "website": "https://github.com/Nice3point/RevitTemplates",
+  "githubRepo": "Nice3point/RevitTemplates",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/Nice3point/RevitTemplates"
+}

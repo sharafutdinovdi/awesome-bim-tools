@@ -1,0 +1,16 @@
+{
+  "slug": "ifcconvert",
+  "name": "IfcConvert",
+  "vendor": "IfcOpenShell contributors",
+  "category": "interop-ifc",
+  "platforms": [
+    "Standalone"
+  ],
+  "pricing": "open-source",
+  "license": "LGPL-3.0-or-later",
+  "oneLiner": "Converts IFC models into other geometry and data formats from the command line.",
+  "website": "https://docs.ifcopenshell.org/ifcconvert.html",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://docs.ifcopenshell.org/ifcconvert.html"
+}

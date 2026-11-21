@@ -1,0 +1,724 @@
+{
+  "generatedAt": "2026-11-21T00:00:00.000Z",
+  "count": 45,
+  "tools": [
+    {
+      "slug": "archeform-bim",
+      "name": "Archeform BIM for SketchUp",
+      "vendor": "Archeform s.r.o.",
+      "category": "documentation",
+      "platforms": [
+        "SketchUp"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Adds BIM elements, technical drawings, material schedules and IFC4 export to SketchUp.",
+      "website": "https://archeform.eu/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://archeform.eu/"
+    },
+    {
+      "slug": "archilizer-tiny-tools",
+      "name": "Tiny Tools",
+      "vendor": "Archilizer",
+      "category": "documentation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "free",
+      "oneLiner": "Duplicates Revit views and sheets and aligns viewports for drawing production.",
+      "website": "https://www.archilizer.com/projects/tiny-tools",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.archilizer.com/projects/tiny-tools"
+    },
+    {
+      "slug": "atomatiq-electric-pack",
+      "name": "Atomatiq Electrical Pack",
+      "vendor": "atomatiq",
+      "category": "mep",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Calculates voltage drop, sizes wires and generates synchronized single-line diagrams in Revit.",
+      "website": "https://www.apps.atomatiq.io/electrical-pack",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.apps.atomatiq.io/electrical-pack"
+    },
+    {
+      "slug": "bimcollab-zoom",
+      "name": "BIMcollab Zoom",
+      "vendor": "BIMcollab",
+      "category": "qa-coordination",
+      "platforms": [
+        "Standalone"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Federates models and provides clash detection, IDS validation and coordination workflows.",
+      "website": "https://www.bimcollab.com/en/plans/bimcollab-modelchecking",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.bimcollab.com/en/plans/bimcollab-modelchecking"
+    },
+    {
+      "slug": "bimcraft",
+      "name": "BIMCraft",
+      "vendor": "IPedrax and contributors",
+      "category": "interop-ifc",
+      "platforms": [
+        "Standalone"
+      ],
+      "pricing": "open-source",
+      "license": "MIT OR Apache-2.0",
+      "oneLiner": "Open-source BIM authoring app in Rust that follows the Revit workflow and reads RVT and RFA files.",
+      "website": "https://github.com/IPedrax/BIMCraft",
+      "githubRepo": "IPedrax/BIMCraft",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/IPedrax/BIMCraft"
+    },
+    {
+      "slug": "bimwright-rvt-mcp",
+      "name": "BIMwright rvt-mcp",
+      "vendor": "BIMwright contributors",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "Apache-2.0",
+      "oneLiner": "Provides local Revit MCP tools, C\u0023 execution and optional reusable personal tools through ToolBaker.",
+      "website": "https://github.com/bimwright/rvt-mcp",
+      "githubRepo": "bimwright/rvt-mcp",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/bimwright/rvt-mcp"
+    },
+    {
+      "slug": "bonsai",
+      "name": "Bonsai",
+      "vendor": "IfcOpenShell contributors",
+      "category": "interop-ifc",
+      "platforms": [
+        "Blender"
+      ],
+      "pricing": "open-source",
+      "license": "GPL-3.0-or-later",
+      "oneLiner": "Authors and edits native IFC models within Blender.",
+      "website": "https://bonsaibim.org/",
+      "githubRepo": "IfcOpenShell/IfcOpenShell",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://bonsaibim.org/"
+    },
+    {
+      "slug": "ctc-bim-project-suite",
+      "name": "BIM Project Suite",
+      "vendor": "CTC Software",
+      "category": "automation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Bundles Revit tools for sheet production, model data editing and project analysis.",
+      "website": "https://ctcsoftware.com/product/bim-project-suite",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://ctcsoftware.com/product/bim-project-suite"
+    },
+    {
+      "slug": "dynamo",
+      "name": "Dynamo",
+      "vendor": "Autodesk and Dynamo contributors",
+      "category": "automation",
+      "platforms": [
+        "Revit",
+        "Standalone"
+      ],
+      "pricing": "open-source",
+      "license": "Apache-2.0",
+      "oneLiner": "Provides visual programming and textual scripting for computational design and automation.",
+      "website": "https://github.com/DynamoDS/Dynamo",
+      "githubRepo": "DynamoDS/Dynamo",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/DynamoDS/Dynamo"
+    },
+    {
+      "slug": "enscape",
+      "name": "Enscape",
+      "vendor": "Chaos",
+      "category": "visualization",
+      "platforms": [
+        "Revit",
+        "Rhino",
+        "SketchUp",
+        "Archicad"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Provides real-time rendering and virtual reality linked to supported design applications.",
+      "website": "https://www.chaos.com/enscape",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.chaos.com/enscape"
+    },
+    {
+      "slug": "familyreviser",
+      "name": "FamilyReviser",
+      "vendor": "DiRoots",
+      "category": "data",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Manages Revit families and worksets and exports families from projects.",
+      "website": "https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/revit-plugins/manage-revit-families-and-worksets-with-familyreviser/"
+    },
+    {
+      "slug": "finch",
+      "name": "Finch",
+      "vendor": "Finch",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit",
+        "Forma",
+        "Rhino"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Generates floor plans and connects Forma massing to Revit BIM workflows.",
+      "website": "https://docs.finch3d.com/site-to-bim-forma-finch-and-revit",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://docs.finch3d.com/site-to-bim-forma-finch-and-revit"
+    },
+    {
+      "slug": "glyph",
+      "name": "Glyph",
+      "vendor": "EvolveLAB / Chaos",
+      "category": "documentation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Automates Revit views, sheets, tags, dimensions and sheet packing.",
+      "website": "https://www.evolvelab.io/glyph",
+      "appStoreUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=8610393188605971463\u0026appLang=en\u0026os=Win64",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.evolvelab.io/glyph"
+    },
+    {
+      "slug": "guardian",
+      "name": "Guardian",
+      "vendor": "Guardian",
+      "category": "qa-coordination",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Enforces Revit standards, protects model elements and reports model and user activity.",
+      "website": "https://www.getguardian.tech/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.getguardian.tech/"
+    },
+    {
+      "slug": "horizun-revit-mcp",
+      "name": "Horizun Revit MCP",
+      "vendor": "Horizun Group",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "Apache-2.0",
+      "oneLiner": "Connects MCP clients to Revit for typed modelling, family authoring, audits and exports.",
+      "website": "https://github.com/HorizunGroup/horizun-revit-mcp",
+      "githubRepo": "HorizunGroup/horizun-revit-mcp",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/HorizunGroup/horizun-revit-mcp"
+    },
+    {
+      "slug": "ideate-automation",
+      "name": "Ideate Automation",
+      "vendor": "Ideate Software, GRAITEC Group",
+      "category": "automation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Runs background Revit tasks such as exports, data extraction and warning reports.",
+      "website": "https://ideatesoftware.com/ideate-automation",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://ideatesoftware.com/ideate-automation"
+    },
+    {
+      "slug": "ideate-bimlink",
+      "name": "Ideate BIMLink",
+      "vendor": "Ideate Software, GRAITEC Group",
+      "category": "data",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Exports Revit model data to Excel and imports spreadsheet edits back into the model.",
+      "website": "https://ideatesoftware.com/ideate-bimlink",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://ideatesoftware.com/ideate-bimlink"
+    },
+    {
+      "slug": "ideate-explorer",
+      "name": "Ideate Explorer",
+      "vendor": "Ideate Software, GRAITEC Group",
+      "category": "qa-coordination",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Browses model elements, filters parameters and reviews Revit warnings.",
+      "website": "https://ideatesoftware.com/ideate-explorer",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://ideatesoftware.com/ideate-explorer"
+    },
+    {
+      "slug": "ideate-sticky",
+      "name": "Ideate Sticky",
+      "vendor": "Ideate Software, GRAITEC Group",
+      "category": "documentation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Links formatted Excel, Word and PDF content into Revit project documentation.",
+      "website": "https://ideatesoftware.com/ideate-sticky",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://ideatesoftware.com/ideate-sticky"
+    },
+    {
+      "slug": "ies-sync-revit",
+      "name": "IES Sync for Revit",
+      "vendor": "Integrated Environmental Solutions",
+      "category": "interop-ifc",
+      "platforms": [
+        "Revit",
+        "Standalone"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Prepares and transfers Revit analytical geometry for building-performance analysis in IES VE.",
+      "website": "https://www.iesve.com/products/ies-sync",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.iesve.com/products/ies-sync"
+    },
+    {
+      "slug": "ifcconvert",
+      "name": "IfcConvert",
+      "vendor": "IfcOpenShell contributors",
+      "category": "interop-ifc",
+      "platforms": [
+        "Standalone"
+      ],
+      "pricing": "open-source",
+      "license": "LGPL-3.0-or-later",
+      "oneLiner": "Converts IFC models into other geometry and data formats from the command line.",
+      "website": "https://docs.ifcopenshell.org/ifcconvert.html",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://docs.ifcopenshell.org/ifcconvert.html"
+    },
+    {
+      "slug": "kenlp-revit-mcp-server",
+      "name": "KenLP Revit MCP Server",
+      "vendor": "KenLP",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "MIT",
+      "oneLiner": "Exposes named Revit query and editing tools with dry runs and atomic batch transactions.",
+      "website": "https://github.com/KenLP/RevitMCPServer",
+      "githubRepo": "KenLP/RevitMCPServer",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/KenLP/RevitMCPServer"
+    },
+    {
+      "slug": "kiwicodes-bonus-tools",
+      "name": "Bonus Tools",
+      "vendor": "KiwiCodes",
+      "category": "automation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Bundles Revit commands for sheets, families, parameters, Excel exchange and quality control.",
+      "website": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161\u0026appLang=en\u0026os=Win64",
+      "appStoreUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161\u0026appLang=en\u0026os=Win64",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161\u0026appLang=en\u0026os=Win64"
+    },
+    {
+      "slug": "mcp-servers-for-revit",
+      "name": "MCP Servers for Revit",
+      "vendor": "mcp-servers-for-revit / Sparx contributors",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "MIT",
+      "oneLiner": "Connects MCP clients to Revit through a TypeScript server, Revit plugin and command set.",
+      "website": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit",
+      "githubRepo": "mcp-servers-for-revit/mcp-servers-for-revit",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit"
+    },
+    {
+      "slug": "naviate-accelerate",
+      "name": "Naviate Accelerate",
+      "vendor": "Naviate",
+      "category": "automation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Provides Revit parameter editing, project cleanup, publishing and productivity commands.",
+      "website": "https://store.naviate.com/products/naviate-accelerate",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://store.naviate.com/products/naviate-accelerate"
+    },
+    {
+      "slug": "nice3point-revit-templates",
+      "name": "Nice3point Revit Templates",
+      "vendor": "Nice3point",
+      "category": "developer",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "MIT",
+      "oneLiner": "Scaffolds .NET Revit add-in projects with multi-version project templates.",
+      "website": "https://github.com/Nice3point/RevitTemplates",
+      "githubRepo": "Nice3point/RevitTemplates",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/Nice3point/RevitTemplates"
+    },
+    {
+      "slug": "onefilter",
+      "name": "OneFilter",
+      "vendor": "DiRoots",
+      "category": "data",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Finds and filters Revit elements, including searches in linked models.",
+      "website": "https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/"
+    },
+    {
+      "slug": "paramanager",
+      "name": "ParaManager",
+      "vendor": "DiRoots",
+      "category": "data",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "free",
+      "oneLiner": "Manages project, family and shared parameters in Revit.",
+      "website": "https://diroots.com/revit-plugins/manage-revit-paramanager-in-projects-and-families-with-paramanager/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/revit-plugins/manage-revit-paramanager-in-projects-and-families-with-paramanager/"
+    },
+    {
+      "slug": "pinly",
+      "name": "Pinly for Revit",
+      "vendor": "atomatiq",
+      "category": "qa-coordination",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Attaches comment threads and coordination feedback to Revit model elements.",
+      "website": "https://www.apps.atomatiq.io/pinly",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.apps.atomatiq.io/pinly"
+    },
+    {
+      "slug": "prosheets",
+      "name": "ProSheets",
+      "vendor": "DiRoots",
+      "category": "documentation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Batch exports Revit views and sheets to PDF, CAD, model and image formats.",
+      "website": "https://diroots.com/apps/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/apps/"
+    },
+    {
+      "slug": "pyrevit",
+      "name": "pyRevit",
+      "vendor": "pyRevit Labs",
+      "category": "automation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "GPL-3.0",
+      "oneLiner": "Provides a scripting environment, deployment utilities and productivity commands for Revit.",
+      "website": "https://github.com/pyrevitlabs/pyRevit",
+      "githubRepo": "pyrevitlabs/pyRevit",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/pyrevitlabs/pyRevit"
+    },
+    {
+      "slug": "qonic-ai",
+      "name": "Qonic AI",
+      "vendor": "Qonic",
+      "category": "ai-mcp",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Finds, checks and edits BIM data and geometry through agents inside Qonic's IFC-based environment.",
+      "website": "https://www.qonic.com/posts/qonic-november-2026-release",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.qonic.com/posts/qonic-november-2026-release"
+    },
+    {
+      "slug": "revit-model-mcp",
+      "name": "Revit Model MCP",
+      "vendor": "Dinar Sharafutdinov",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "MIT",
+      "oneLiner": "Connects MCP clients to live Revit models for querying, auditing and model operations.",
+      "website": "https://sharafutdinov.online/products/revit-model-mcp",
+      "githubRepo": "sharafutdinovdi/revit-model-mcp",
+      "appStoreUrl": "https://marketplace.autodesk.com/apps/9bd488ad-0919-4a45-b1ce-ad465ee2b46e",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://sharafutdinov.online/products/revit-model-mcp"
+    },
+    {
+      "slug": "revitdevtool",
+      "name": "RevitDevTool",
+      "vendor": "Zhuangkh",
+      "category": "developer",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "GPL-3.0",
+      "oneLiner": "Provides Revit development and debugging utilities, including transient geometry tracing.",
+      "website": "https://github.com/Zhuangkh/RevitDevTool",
+      "githubRepo": "Zhuangkh/RevitDevTool",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/Zhuangkh/RevitDevTool"
+    },
+    {
+      "slug": "revitlookup",
+      "name": "RevitLookup",
+      "vendor": "Lookup Foundation",
+      "category": "developer",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "MIT",
+      "oneLiner": "Inspects Revit database elements, properties, parameters and object relationships.",
+      "website": "https://github.com/lookup-foundation/RevitLookup",
+      "githubRepo": "lookup-foundation/RevitLookup",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://github.com/lookup-foundation/RevitLookup"
+    },
+    {
+      "slug": "revizto",
+      "name": "Revizto",
+      "vendor": "Revizto",
+      "category": "qa-coordination",
+      "platforms": [
+        "Standalone"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Provides model review, clash automation and virtual reality with per-user or per-project licensing.",
+      "website": "https://revizto.com/pricing",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://revizto.com/pricing"
+    },
+    {
+      "slug": "rhino-inside-revit",
+      "name": "Rhino.Inside.Revit",
+      "vendor": "Robert McNeel \u0026 Associates",
+      "category": "interop-ifc",
+      "platforms": [
+        "Revit",
+        "Rhino"
+      ],
+      "pricing": "open-source",
+      "license": "MIT",
+      "oneLiner": "Embeds Rhino and Grasshopper within Revit for geometry and BIM workflows.",
+      "website": "https://www.rhino3d.com/inside/revit/1.0/getting-started",
+      "githubRepo": "mcneel/rhino.inside-revit",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.rhino3d.com/inside/revit/1.0/getting-started"
+    },
+    {
+      "slug": "sheetgen",
+      "name": "SheetGen",
+      "vendor": "DiRoots",
+      "category": "documentation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "free",
+      "oneLiner": "Automates Revit sheet creation and management.",
+      "website": "https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/"
+    },
+    {
+      "slug": "sheetlink",
+      "name": "SheetLink",
+      "vendor": "DiRoots",
+      "category": "data",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Exports and edits Revit model data through spreadsheet workflows.",
+      "website": "https://diroots.com/revit-plugins/revit-to-excel-sheetlink/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/revit-plugins/revit-to-excel-sheetlink/"
+    },
+    {
+      "slug": "snaptrude-agent",
+      "name": "Snaptrude Agent",
+      "vendor": "Snaptrude",
+      "category": "ai-mcp",
+      "platforms": [
+        "Web"
+      ],
+      "pricing": "freemium",
+      "oneLiner": "Turns briefs and prompts into editable Snaptrude design models, with paid BIM and export workflows.",
+      "website": "https://www.snaptrude.com/product-releases/3-56-0",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.snaptrude.com/product-releases/3-56-0"
+    },
+    {
+      "slug": "solibri",
+      "name": "Solibri",
+      "vendor": "Solibri",
+      "category": "qa-coordination",
+      "platforms": [
+        "Standalone"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Federates models and checks BIM information and geometry against validation rules.",
+      "website": "https://www.solibri.com/our-offerings",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.solibri.com/our-offerings"
+    },
+    {
+      "slug": "speckle-revit",
+      "name": "Speckle for Revit",
+      "vendor": "Speckle",
+      "category": "interop-ifc",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "open-source",
+      "license": "Apache-2.0",
+      "oneLiner": "Exchanges Revit geometry and object data with other design tools through Speckle connectors.",
+      "website": "https://speckle.systems/integrations/revit",
+      "githubRepo": "specklesystems/speckle-sharp-connectors",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://speckle.systems/integrations/revit"
+    },
+    {
+      "slug": "tablegen",
+      "name": "TableGen",
+      "vendor": "DiRoots",
+      "category": "documentation",
+      "platforms": [
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Imports spreadsheet tables into Revit legends, drafting views and schedules.",
+      "website": "https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/"
+    },
+    {
+      "slug": "testfit-site-solver",
+      "name": "TestFit Site Solver",
+      "vendor": "TestFit",
+      "category": "ai-mcp",
+      "platforms": [
+        "Standalone",
+        "Revit"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Generates site feasibility layouts and transfers site and building geometry through a Revit add-in.",
+      "website": "https://www.testfit.io/product/site-solver",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.testfit.io/product/site-solver"
+    },
+    {
+      "slug": "veras",
+      "name": "Veras",
+      "vendor": "Chaos / EvolveLAB",
+      "category": "ai-mcp",
+      "platforms": [
+        "Revit",
+        "Forma",
+        "Web"
+      ],
+      "pricing": "paid",
+      "oneLiner": "Generates AI visualizations from design geometry, sketches and reference images.",
+      "website": "https://www.chaos.com/veras",
+      "addedAt": "2026-11-21",
+      "source": "editor",
+      "sourceUrl": "https://www.chaos.com/veras"
+    }
+  ]
+}

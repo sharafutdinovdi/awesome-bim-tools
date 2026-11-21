@@ -1,0 +1,93 @@
+name: Validate
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  protected-paths:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          path: candidate
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+          path: base
+      - name: Check external pull request paths
+        working-directory: candidate
+        shell: bash
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git diff --no-ext-diff --no-renames --name-only -z "$BASE_SHA...$HEAD_SHA" -- |
+            node ../base/scripts/protected-paths.mjs "$PR_AUTHOR"
+          git diff --no-ext-diff --no-renames --name-only --diff-filter=m -z "$BASE_SHA...$HEAD_SHA" -- |
+            node ../base/scripts/protected-paths.mjs "$PR_AUTHOR" --reject-non-modifications
+
+  validate:
+    needs: protected-paths
+    if: ${{ !cancelled() && (needs.protected-paths.result == 'success' || github.event_name == 'push') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          persist-credentials: false
+          path: candidate
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        if: github.event_name == 'pull_request'
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+          path: base
+      - name: Validate pull request data with base scripts
+        if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          catalog=candidate
+          if [[ "$PR_AUTHOR" != 'sharafutdinovdi' ]]; then
+            catalog="$(mktemp -d)"
+            trap 'rm -rf -- "$catalog"' EXIT
+            cp -a -- candidate/tools candidate/README.md candidate/removed.json "$catalog"
+            if [[ -e candidate/logos || -L candidate/logos ]]; then
+              cp -a -- candidate/logos "$catalog"
+            fi
+            node base/scripts/build.mjs "$catalog"
+          fi
+          node base/scripts/validate.mjs "$catalog"
+          node base/scripts/build.mjs --check "$catalog"
+      - name: Test base scripts
+        if: github.event_name == 'pull_request'
+        working-directory: base
+        run: node --test
+      - name: Validate main data
+        if: github.event_name == 'push'
+        working-directory: candidate
+        run: node scripts/validate.mjs --data-only
+      - name: Check generated files on main
+        if: github.event_name == 'push'
+        working-directory: candidate
+        shell: bash
+        run: |
+          if ! node scripts/build.mjs --check; then
+            echo '::warning::Generated catalog files need to be rebuilt.'
+          fi
+      - name: Test main scripts
+        if: github.event_name == 'push'
+        working-directory: candidate
+        run: node --test

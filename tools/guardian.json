@@ -1,0 +1,15 @@
+{
+  "slug": "guardian",
+  "name": "Guardian",
+  "vendor": "Guardian",
+  "category": "qa-coordination",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Enforces Revit standards, protects model elements and reports model and user activity.",
+  "website": "https://www.getguardian.tech/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.getguardian.tech/"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "ies-sync-revit",
+  "name": "IES Sync for Revit",
+  "vendor": "Integrated Environmental Solutions",
+  "category": "interop-ifc",
+  "platforms": [
+    "Revit",
+    "Standalone"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Prepares and transfers Revit analytical geometry for building-performance analysis in IES VE.",
+  "website": "https://www.iesve.com/products/ies-sync",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.iesve.com/products/ies-sync"
+}

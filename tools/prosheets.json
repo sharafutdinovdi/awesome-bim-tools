@@ -1,0 +1,15 @@
+{
+  "slug": "prosheets",
+  "name": "ProSheets",
+  "vendor": "DiRoots",
+  "category": "documentation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "freemium",
+  "oneLiner": "Batch exports Revit views and sheets to PDF, CAD, model and image formats.",
+  "website": "https://diroots.com/apps/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://diroots.com/apps/"
+}

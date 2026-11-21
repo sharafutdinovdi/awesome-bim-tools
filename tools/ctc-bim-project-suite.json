@@ -1,0 +1,15 @@
+{
+  "slug": "ctc-bim-project-suite",
+  "name": "BIM Project Suite",
+  "vendor": "CTC Software",
+  "category": "automation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "freemium",
+  "oneLiner": "Bundles Revit tools for sheet production, model data editing and project analysis.",
+  "website": "https://ctcsoftware.com/product/bim-project-suite",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://ctcsoftware.com/product/bim-project-suite"
+}

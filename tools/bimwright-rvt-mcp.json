@@ -1,0 +1,17 @@
+{
+  "slug": "bimwright-rvt-mcp",
+  "name": "BIMwright rvt-mcp",
+  "vendor": "BIMwright contributors",
+  "category": "ai-mcp",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "Apache-2.0",
+  "oneLiner": "Provides local Revit MCP tools, C# execution and optional reusable personal tools through ToolBaker.",
+  "website": "https://github.com/bimwright/rvt-mcp",
+  "githubRepo": "bimwright/rvt-mcp",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/bimwright/rvt-mcp"
+}

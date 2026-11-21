@@ -1,0 +1,18 @@
+{
+  "slug": "enscape",
+  "name": "Enscape",
+  "vendor": "Chaos",
+  "category": "visualization",
+  "platforms": [
+    "Revit",
+    "Rhino",
+    "SketchUp",
+    "Archicad"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Provides real-time rendering and virtual reality linked to supported design applications.",
+  "website": "https://www.chaos.com/enscape",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.chaos.com/enscape"
+}

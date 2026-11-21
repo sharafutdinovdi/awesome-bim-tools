@@ -1,0 +1,18 @@
+{
+  "slug": "rhino-inside-revit",
+  "name": "Rhino.Inside.Revit",
+  "vendor": "Robert McNeel & Associates",
+  "category": "interop-ifc",
+  "platforms": [
+    "Revit",
+    "Rhino"
+  ],
+  "pricing": "open-source",
+  "license": "MIT",
+  "oneLiner": "Embeds Rhino and Grasshopper within Revit for geometry and BIM workflows.",
+  "website": "https://www.rhino3d.com/inside/revit/1.0/getting-started",
+  "githubRepo": "mcneel/rhino.inside-revit",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.rhino3d.com/inside/revit/1.0/getting-started"
+}

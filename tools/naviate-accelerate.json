@@ -1,0 +1,15 @@
+{
+  "slug": "naviate-accelerate",
+  "name": "Naviate Accelerate",
+  "vendor": "Naviate",
+  "category": "automation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Provides Revit parameter editing, project cleanup, publishing and productivity commands.",
+  "website": "https://store.naviate.com/products/naviate-accelerate",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://store.naviate.com/products/naviate-accelerate"
+}

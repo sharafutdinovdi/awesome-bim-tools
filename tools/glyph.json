@@ -1,0 +1,16 @@
+{
+  "slug": "glyph",
+  "name": "Glyph",
+  "vendor": "EvolveLAB / Chaos",
+  "category": "documentation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Automates Revit views, sheets, tags, dimensions and sheet packing.",
+  "website": "https://www.evolvelab.io/glyph",
+  "appStoreUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=8610393188605971463&appLang=en&os=Win64",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.evolvelab.io/glyph"
+}

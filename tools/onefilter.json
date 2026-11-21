@@ -1,0 +1,15 @@
+{
+  "slug": "onefilter",
+  "name": "OneFilter",
+  "vendor": "DiRoots",
+  "category": "data",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "freemium",
+  "oneLiner": "Finds and filters Revit elements, including searches in linked models.",
+  "website": "https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://diroots.com/revit-plugins/revit-advanced-filter-onefilter/"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "revitlookup",
+  "name": "RevitLookup",
+  "vendor": "Lookup Foundation",
+  "category": "developer",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "MIT",
+  "oneLiner": "Inspects Revit database elements, properties, parameters and object relationships.",
+  "website": "https://github.com/lookup-foundation/RevitLookup",
+  "githubRepo": "lookup-foundation/RevitLookup",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/lookup-foundation/RevitLookup"
+}

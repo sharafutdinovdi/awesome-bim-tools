@@ -1,0 +1,15 @@
+{
+  "slug": "snaptrude-agent",
+  "name": "Snaptrude Agent",
+  "vendor": "Snaptrude",
+  "category": "ai-mcp",
+  "platforms": [
+    "Web"
+  ],
+  "pricing": "freemium",
+  "oneLiner": "Turns briefs and prompts into editable Snaptrude design models, with paid BIM and export workflows.",
+  "website": "https://www.snaptrude.com/product-releases/3-56-0",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.snaptrude.com/product-releases/3-56-0"
+}

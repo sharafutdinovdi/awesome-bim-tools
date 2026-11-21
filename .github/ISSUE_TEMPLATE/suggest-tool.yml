@@ -1,0 +1,114 @@
+name: Suggest a tool
+description: Suggest a BIM tool for the list.
+title: 'Suggest: '
+labels: [submission]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: Public HTTPS address for the tool.
+    validations:
+      required: true
+  - type: input
+    id: github-repo
+    attributes:
+      label: GitHub repository
+      description: Enter the repository as owner/name, if applicable.
+  - type: input
+    id: app-store-url
+    attributes:
+      label: Autodesk App Store URL
+      description: Enter the public HTTPS listing address, if applicable.
+  - type: input
+    id: maker
+    attributes:
+      label: Maker
+      description: The person, project or company that makes the tool.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Automation and scripting
+        - Documentation and sheets
+        - Data and parameters
+        - Model QA and coordination
+        - MEP and electrical
+        - AI and MCP
+        - Visualization
+        - Interoperability and IFC
+        - Developer tools
+    validations:
+      required: true
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Select 1 to 5 supported platforms.
+      options:
+        - label: Revit
+        - label: Navisworks
+        - label: AutoCAD
+        - label: Civil 3D
+        - label: Forma
+        - label: Dynamo
+        - label: Archicad
+        - label: Tekla
+        - label: SketchUp
+        - label: Rhino
+        - label: Blender
+        - label: IFC
+        - label: Standalone
+        - label: Web
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing
+      options:
+        - free
+        - freemium
+        - paid
+        - open-source
+    validations:
+      required: true
+  - type: input
+    id: one-liner
+    attributes:
+      label: What does it do?
+      description: Write one plain sentence of 20 to 140 characters. Do not include links or formatting.
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to the tool
+      options:
+        - I make it
+        - I use it
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: The information is public and I agree that it may be listed here and on Best of BIM.
+          required: true
+  - type: dropdown
+    id: submitted-with
+    attributes:
+      label: Submitted with
+      description: Optional. Used only for statistics.
+      options:
+        - By hand
+        - With an AI assistant

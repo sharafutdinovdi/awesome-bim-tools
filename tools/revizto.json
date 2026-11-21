@@ -1,0 +1,15 @@
+{
+  "slug": "revizto",
+  "name": "Revizto",
+  "vendor": "Revizto",
+  "category": "qa-coordination",
+  "platforms": [
+    "Standalone"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Provides model review, clash automation and virtual reality with per-user or per-project licensing.",
+  "website": "https://revizto.com/pricing",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://revizto.com/pricing"
+}

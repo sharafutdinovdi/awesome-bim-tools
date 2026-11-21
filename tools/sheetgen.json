@@ -1,0 +1,15 @@
+{
+  "slug": "sheetgen",
+  "name": "SheetGen",
+  "vendor": "DiRoots",
+  "category": "documentation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "free",
+  "oneLiner": "Automates Revit sheet creation and management.",
+  "website": "https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://diroots.com/revit-plugins/batch-create-revit-sheets-and-place-views-with-sheetgen/"
+}

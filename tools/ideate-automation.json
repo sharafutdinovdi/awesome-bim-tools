@@ -1,0 +1,15 @@
+{
+  "slug": "ideate-automation",
+  "name": "Ideate Automation",
+  "vendor": "Ideate Software, GRAITEC Group",
+  "category": "automation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Runs background Revit tasks such as exports, data extraction and warning reports.",
+  "website": "https://ideatesoftware.com/ideate-automation",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://ideatesoftware.com/ideate-automation"
+}

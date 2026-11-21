@@ -1,0 +1,17 @@
+{
+  "slug": "kenlp-revit-mcp-server",
+  "name": "KenLP Revit MCP Server",
+  "vendor": "KenLP",
+  "category": "ai-mcp",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "MIT",
+  "oneLiner": "Exposes named Revit query and editing tools with dry runs and atomic batch transactions.",
+  "website": "https://github.com/KenLP/RevitMCPServer",
+  "githubRepo": "KenLP/RevitMCPServer",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/KenLP/RevitMCPServer"
+}

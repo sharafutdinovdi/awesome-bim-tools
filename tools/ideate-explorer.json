@@ -1,0 +1,15 @@
+{
+  "slug": "ideate-explorer",
+  "name": "Ideate Explorer",
+  "vendor": "Ideate Software, GRAITEC Group",
+  "category": "qa-coordination",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Browses model elements, filters parameters and reviews Revit warnings.",
+  "website": "https://ideatesoftware.com/ideate-explorer",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://ideatesoftware.com/ideate-explorer"
+}

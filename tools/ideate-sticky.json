@@ -1,0 +1,15 @@
+{
+  "slug": "ideate-sticky",
+  "name": "Ideate Sticky",
+  "vendor": "Ideate Software, GRAITEC Group",
+  "category": "documentation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Links formatted Excel, Word and PDF content into Revit project documentation.",
+  "website": "https://ideatesoftware.com/ideate-sticky",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://ideatesoftware.com/ideate-sticky"
+}

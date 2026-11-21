@@ -1,0 +1,18 @@
+{
+  "slug": "dynamo",
+  "name": "Dynamo",
+  "vendor": "Autodesk and Dynamo contributors",
+  "category": "automation",
+  "platforms": [
+    "Revit",
+    "Standalone"
+  ],
+  "pricing": "open-source",
+  "license": "Apache-2.0",
+  "oneLiner": "Provides visual programming and textual scripting for computational design and automation.",
+  "website": "https://github.com/DynamoDS/Dynamo",
+  "githubRepo": "DynamoDS/Dynamo",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/DynamoDS/Dynamo"
+}

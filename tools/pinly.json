@@ -1,0 +1,15 @@
+{
+  "slug": "pinly",
+  "name": "Pinly for Revit",
+  "vendor": "atomatiq",
+  "category": "qa-coordination",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "freemium",
+  "oneLiner": "Attaches comment threads and coordination feedback to Revit model elements.",
+  "website": "https://www.apps.atomatiq.io/pinly",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.apps.atomatiq.io/pinly"
+}

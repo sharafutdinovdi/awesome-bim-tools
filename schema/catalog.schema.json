@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/sharafutdinovdi/awesome-bim-tools/main/schema/catalog.schema.json",
+  "title": "Awesome BIM Tools catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["generatedAt", "count", "tools"],
+  "properties": {
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?Z$",
+      "description": "UTC timestamp generated from the most recent addedAt date. An empty catalog uses the Unix epoch."
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2000,
+      "description": "Equals the number of entries in tools."
+    },
+    "tools": {
+      "type": "array",
+      "maxItems": 2000,
+      "items": { "$ref": "https://raw.githubusercontent.com/sharafutdinovdi/awesome-bim-tools/main/schema/tool.schema.json" },
+      "description": "Sorted by slug. Slugs, normalized names, websites and GitHub repository identifiers are unique."
+    }
+  }
+}

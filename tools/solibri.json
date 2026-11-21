@@ -1,0 +1,15 @@
+{
+  "slug": "solibri",
+  "name": "Solibri",
+  "vendor": "Solibri",
+  "category": "qa-coordination",
+  "platforms": [
+    "Standalone"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Federates models and checks BIM information and geometry against validation rules.",
+  "website": "https://www.solibri.com/our-offerings",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.solibri.com/our-offerings"
+}

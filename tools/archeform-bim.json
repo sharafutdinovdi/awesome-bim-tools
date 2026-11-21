@@ -1,0 +1,15 @@
+{
+  "slug": "archeform-bim",
+  "name": "Archeform BIM for SketchUp",
+  "vendor": "Archeform s.r.o.",
+  "category": "documentation",
+  "platforms": [
+    "SketchUp"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Adds BIM elements, technical drawings, material schedules and IFC4 export to SketchUp.",
+  "website": "https://archeform.eu/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://archeform.eu/"
+}

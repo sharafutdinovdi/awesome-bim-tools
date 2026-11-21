@@ -1,0 +1,17 @@
+{
+  "slug": "horizun-revit-mcp",
+  "name": "Horizun Revit MCP",
+  "vendor": "Horizun Group",
+  "category": "ai-mcp",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "Apache-2.0",
+  "oneLiner": "Connects MCP clients to Revit for typed modelling, family authoring, audits and exports.",
+  "website": "https://github.com/HorizunGroup/horizun-revit-mcp",
+  "githubRepo": "HorizunGroup/horizun-revit-mcp",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/HorizunGroup/horizun-revit-mcp"
+}

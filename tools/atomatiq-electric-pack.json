@@ -1,0 +1,15 @@
+{
+  "slug": "atomatiq-electric-pack",
+  "name": "Atomatiq Electrical Pack",
+  "vendor": "atomatiq",
+  "category": "mep",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Calculates voltage drop, sizes wires and generates synchronized single-line diagrams in Revit.",
+  "website": "https://www.apps.atomatiq.io/electrical-pack",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.apps.atomatiq.io/electrical-pack"
+}

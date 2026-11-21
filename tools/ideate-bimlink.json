@@ -1,0 +1,15 @@
+{
+  "slug": "ideate-bimlink",
+  "name": "Ideate BIMLink",
+  "vendor": "Ideate Software, GRAITEC Group",
+  "category": "data",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Exports Revit model data to Excel and imports spreadsheet edits back into the model.",
+  "website": "https://ideatesoftware.com/ideate-bimlink",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://ideatesoftware.com/ideate-bimlink"
+}

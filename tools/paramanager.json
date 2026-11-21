@@ -1,0 +1,15 @@
+{
+  "slug": "paramanager",
+  "name": "ParaManager",
+  "vendor": "DiRoots",
+  "category": "data",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "free",
+  "oneLiner": "Manages project, family and shared parameters in Revit.",
+  "website": "https://diroots.com/revit-plugins/manage-revit-paramanager-in-projects-and-families-with-paramanager/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://diroots.com/revit-plugins/manage-revit-paramanager-in-projects-and-families-with-paramanager/"
+}

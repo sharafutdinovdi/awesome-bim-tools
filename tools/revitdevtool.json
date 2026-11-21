@@ -1,0 +1,17 @@
+{
+  "slug": "revitdevtool",
+  "name": "RevitDevTool",
+  "vendor": "Zhuangkh",
+  "category": "developer",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "open-source",
+  "license": "GPL-3.0",
+  "oneLiner": "Provides Revit development and debugging utilities, including transient geometry tracing.",
+  "website": "https://github.com/Zhuangkh/RevitDevTool",
+  "githubRepo": "Zhuangkh/RevitDevTool",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://github.com/Zhuangkh/RevitDevTool"
+}

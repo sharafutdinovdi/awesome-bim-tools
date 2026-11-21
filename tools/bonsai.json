@@ -1,0 +1,17 @@
+{
+  "slug": "bonsai",
+  "name": "Bonsai",
+  "vendor": "IfcOpenShell contributors",
+  "category": "interop-ifc",
+  "platforms": [
+    "Blender"
+  ],
+  "pricing": "open-source",
+  "license": "GPL-3.0-or-later",
+  "oneLiner": "Authors and edits native IFC models within Blender.",
+  "website": "https://bonsaibim.org/",
+  "githubRepo": "IfcOpenShell/IfcOpenShell",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://bonsaibim.org/"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "archilizer-tiny-tools",
+  "name": "Tiny Tools",
+  "vendor": "Archilizer",
+  "category": "documentation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "free",
+  "oneLiner": "Duplicates Revit views and sheets and aligns viewports for drawing production.",
+  "website": "https://www.archilizer.com/projects/tiny-tools",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.archilizer.com/projects/tiny-tools"
+}

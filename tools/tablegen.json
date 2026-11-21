@@ -1,0 +1,15 @@
+{
+  "slug": "tablegen",
+  "name": "TableGen",
+  "vendor": "DiRoots",
+  "category": "documentation",
+  "platforms": [
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Imports spreadsheet tables into Revit legends, drafting views and schedules.",
+  "website": "https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://diroots.com/revit-plugins/excel-to-revit-as-drafting-legend-and-schedule-views-with-tablegen/"
+}

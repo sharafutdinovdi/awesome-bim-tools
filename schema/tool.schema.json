@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/sharafutdinovdi/awesome-bim-tools/main/schema/tool.schema.json",
+  "title": "Awesome BIM Tools entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "name", "vendor", "category", "platforms", "pricing", "oneLiner", "website", "addedAt", "source", "sourceUrl"],
+  "properties": {
+    "slug": {
+      "$ref": "#/$defs/singleLine",
+      "maxLength": 60,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Matches the tool filename without .json."
+    },
+    "name": {
+      "$ref": "#/$defs/singleLine",
+      "maxLength": 60,
+      "pattern": "^[^<>\\[\\]`\\\\]+$"
+    },
+    "vendor": {
+      "$ref": "#/$defs/singleLine",
+      "maxLength": 80
+    },
+    "category": {
+      "type": "string",
+      "enum": ["automation", "documentation", "data", "qa-coordination", "mep", "ai-mcp", "visualization", "interop-ifc", "developer"]
+    },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "maxLength": 30,
+        "enum": ["Revit", "Navisworks", "AutoCAD", "Civil 3D", "Forma", "Dynamo", "Archicad", "Tekla", "SketchUp", "Rhino", "Blender", "IFC", "Standalone", "Web"]
+      }
+    },
+    "pricing": {
+      "type": "string",
+      "enum": ["free", "freemium", "paid", "open-source"]
+    },
+    "license": {
+      "$ref": "#/$defs/singleLine",
+      "maxLength": 40,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9.+-]*(?: (?:AND|OR|WITH) [A-Za-z0-9][A-Za-z0-9.+-]*)*$"
+    },
+    "oneLiner": {
+      "$ref": "#/$defs/singleLine",
+      "minLength": 20,
+      "maxLength": 140,
+      "pattern": "^[\\x20-\\x7e\\u00c0-\\u024f\\u1e00-\\u1eff]+$",
+      "allOf": [
+        { "pattern": "\\p{Script=Latin}" },
+        { "not": { "pattern": "[^\\x20-\\x7e\\p{Script=Latin}]|[<>\\[\\]`\\\\|@*_~]|^(?:#{1,6}(?: |$)|[-+] |\\d+[.)] )|\\$[^$]+\\$" } }
+      ],
+      "description": "One plain sentence without markup, links or mentions. Catalog validation also checks for bare domain names and URL schemes."
+    },
+    "website": { "$ref": "#/$defs/publicHttps" },
+    "githubRepo": {
+      "$ref": "#/$defs/singleLine",
+      "maxLength": 140,
+      "pattern": "^(?![A-Za-z0-9-]*--)[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?\\/(?!\\.{1,2}$)[A-Za-z0-9_.-]{1,100}$",
+      "description": "Repository as owner/name, not a URL."
+    },
+    "appStoreUrl": {
+      "$ref": "#/$defs/publicHttps",
+      "pattern": "^https://(?:[Aa][Pp][Pp][Ss]|[Mm][Aa][Rr][Kk][Ee][Tt][Pp][Ll][Aa][Cc][Ee])\\.[Aa][Uu][Tt][Oo][Dd][Ee][Ss][Kk]\\.[Cc][Oo][Mm](?:[/?#]|$)",
+      "description": "Listing on apps.autodesk.com or marketplace.autodesk.com."
+    },
+    "addedAt": {
+      "$ref": "#/$defs/singleLine",
+      "minLength": 10,
+      "maxLength": 10,
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["community", "scanner", "editor"]
+    },
+    "sourceUrl": { "$ref": "#/$defs/publicHttps" },
+    "logo": {
+      "$ref": "#/$defs/singleLine",
+      "maxLength": 71,
+      "pattern": "^logos\\/[a-z0-9]+(?:-[a-z0-9]+)*\\.webp$",
+      "description": "Path to logos/<slug>.webp relative to the repository root. The filename uses this entry's slug. The file is a static WebP up to 256 by 256 pixels and 60 KiB."
+    }
+  },
+  "$defs": {
+    "singleLine": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s)(?!.*\\s$)[^\\p{C}\\p{Zl}\\p{Zp}\\p{Default_Ignorable_Code_Point}]+$"
+    },
+    "publicHttps": {
+      "$ref": "#/$defs/singleLine",
+      "format": "iri",
+      "maxLength": 300,
+      "pattern": "^https://(?![A-Za-z0-9.-]{254})(?!(?:[A-Za-z0-9-]+\\.)*[Xx][Nn]--)(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\\.)+[A-Za-z](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?(?:[/?#][^\\s<>\"`\\\\|]*)?$",
+      "description": "Use a public ASCII DNS hostname without userinfo, port, trailing dot or IDN labels. Catalog validation also rejects reserved domains, IP addresses and known URL shorteners."
+    }
+  }
+}

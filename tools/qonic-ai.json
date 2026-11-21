@@ -1,0 +1,15 @@
+{
+  "slug": "qonic-ai",
+  "name": "Qonic AI",
+  "vendor": "Qonic",
+  "category": "ai-mcp",
+  "platforms": [
+    "Web"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Finds, checks and edits BIM data and geometry through agents inside Qonic's IFC-based environment.",
+  "website": "https://www.qonic.com/posts/qonic-november-2026-release",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.qonic.com/posts/qonic-november-2026-release"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "finch",
+  "name": "Finch",
+  "vendor": "Finch",
+  "category": "ai-mcp",
+  "platforms": [
+    "Revit",
+    "Forma",
+    "Rhino"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Generates floor plans and connects Forma massing to Revit BIM workflows.",
+  "website": "https://docs.finch3d.com/site-to-bim-forma-finch-and-revit",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://docs.finch3d.com/site-to-bim-forma-finch-and-revit"
+}

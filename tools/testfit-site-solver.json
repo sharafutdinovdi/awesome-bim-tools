@@ -1,0 +1,16 @@
+{
+  "slug": "testfit-site-solver",
+  "name": "TestFit Site Solver",
+  "vendor": "TestFit",
+  "category": "ai-mcp",
+  "platforms": [
+    "Standalone",
+    "Revit"
+  ],
+  "pricing": "paid",
+  "oneLiner": "Generates site feasibility layouts and transfers site and building geometry through a Revit add-in.",
+  "website": "https://www.testfit.io/product/site-solver",
+  "addedAt": "2026-11-21",
+  "source": "editor",
+  "sourceUrl": "https://www.testfit.io/product/site-solver"
+}
