@@ -75,6 +75,14 @@
       "format": "date",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     },
+    "released": {
+      "$ref": "#/$defs/singleLine",
+      "minLength": 10,
+      "maxLength": 10,
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Earliest verified public release or repository creation date, at or before addedAt."
+    },
     "source": {
       "type": "string",
       "enum": ["community", "scanner", "editor"]

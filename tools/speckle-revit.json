@@ -12,6 +12,7 @@
   "website": "https://speckle.systems/integrations/revit",
   "githubRepo": "specklesystems/speckle-sharp-connectors",
   "addedAt": "2026-11-21",
+  "released": "2024-07-04",
   "source": "editor",
   "sourceUrl": "https://speckle.systems/integrations/revit"
 }

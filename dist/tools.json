@@ -76,6 +76,7 @@
       "website": "https://github.com/IPedrax/BIMCraft",
       "githubRepo": "IPedrax/BIMCraft",
       "addedAt": "2026-11-21",
+      "released": "2026-10-15",
       "source": "editor",
       "sourceUrl": "https://github.com/IPedrax/BIMCraft"
     },
@@ -93,6 +94,7 @@
       "website": "https://github.com/bimwright/rvt-mcp",
       "githubRepo": "bimwright/rvt-mcp",
       "addedAt": "2026-11-21",
+      "released": "2026-04-17",
       "source": "editor",
       "sourceUrl": "https://github.com/bimwright/rvt-mcp"
     },
@@ -110,6 +112,7 @@
       "website": "https://bonsaibim.org/",
       "githubRepo": "IfcOpenShell/IfcOpenShell",
       "addedAt": "2026-11-21",
+      "released": "2015-08-10",
       "source": "editor",
       "sourceUrl": "https://bonsaibim.org/"
     },
@@ -143,6 +146,7 @@
       "website": "https://github.com/DynamoDS/Dynamo",
       "githubRepo": "DynamoDS/Dynamo",
       "addedAt": "2026-11-21",
+      "released": "2012-02-09",
       "source": "editor",
       "sourceUrl": "https://github.com/DynamoDS/Dynamo"
     },
@@ -161,6 +165,7 @@
       "website": "https://github.com/DynamoDS/DynamoRevit",
       "githubRepo": "DynamoDS/DynamoRevit",
       "addedAt": "2026-11-21",
+      "released": "2014-08-08",
       "source": "community",
       "sourceUrl": "https://github.com/DynamoDS/DynamoRevit",
       "logo": "logos/dynamorevit.webp"
@@ -228,6 +233,7 @@
       "website": "https://www.evolvelab.io/glyph",
       "appStoreUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=8610393188605971463\u0026appLang=en\u0026os=Win64",
       "addedAt": "2026-11-21",
+      "released": "2024-12-06",
       "source": "editor",
       "sourceUrl": "https://www.evolvelab.io/glyph"
     },
@@ -260,6 +266,7 @@
       "website": "https://github.com/HorizunGroup/horizun-revit-mcp",
       "githubRepo": "HorizunGroup/horizun-revit-mcp",
       "addedAt": "2026-11-21",
+      "released": "2026-08-02",
       "source": "editor",
       "sourceUrl": "https://github.com/HorizunGroup/horizun-revit-mcp"
     },
@@ -369,6 +376,7 @@
       "website": "https://github.com/KenLP/RevitMCPServer",
       "githubRepo": "KenLP/RevitMCPServer",
       "addedAt": "2026-11-21",
+      "released": "2026-04-15",
       "source": "editor",
       "sourceUrl": "https://github.com/KenLP/RevitMCPServer"
     },
@@ -385,6 +393,7 @@
       "website": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161\u0026appLang=en\u0026os=Win64",
       "appStoreUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161\u0026appLang=en\u0026os=Win64",
       "addedAt": "2026-11-21",
+      "released": "2018-02-28",
       "source": "editor",
       "sourceUrl": "https://apps.autodesk.com/RVT/en/Detail/Index?id=2077603980990329161\u0026appLang=en\u0026os=Win64"
     },
@@ -402,6 +411,7 @@
       "website": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit",
       "githubRepo": "mcp-servers-for-revit/mcp-servers-for-revit",
       "addedAt": "2026-11-21",
+      "released": "2026-02-08",
       "source": "editor",
       "sourceUrl": "https://github.com/mcp-servers-for-revit/mcp-servers-for-revit"
     },
@@ -434,6 +444,7 @@
       "website": "https://github.com/Nice3point/RevitTemplates",
       "githubRepo": "Nice3point/RevitTemplates",
       "addedAt": "2026-11-21",
+      "released": "2021-07-26",
       "source": "editor",
       "sourceUrl": "https://github.com/Nice3point/RevitTemplates"
     },
@@ -511,6 +522,7 @@
       "website": "https://github.com/pyrevitlabs/pyRevit",
       "githubRepo": "pyrevitlabs/pyRevit",
       "addedAt": "2026-11-21",
+      "released": "2015-08-16",
       "source": "editor",
       "sourceUrl": "https://github.com/pyrevitlabs/pyRevit"
     },
@@ -544,6 +556,7 @@
       "githubRepo": "sharafutdinovdi/revit-model-mcp",
       "appStoreUrl": "https://marketplace.autodesk.com/apps/9bd488ad-0919-4a45-b1ce-ad465ee2b46e",
       "addedAt": "2026-11-21",
+      "released": "2026-09-11",
       "source": "editor",
       "sourceUrl": "https://sharafutdinov.online/products/revit-model-mcp"
     },
@@ -561,6 +574,7 @@
       "website": "https://github.com/Zhuangkh/RevitDevTool",
       "githubRepo": "Zhuangkh/RevitDevTool",
       "addedAt": "2026-11-21",
+      "released": "2019-12-15",
       "source": "editor",
       "sourceUrl": "https://github.com/Zhuangkh/RevitDevTool"
     },
@@ -578,6 +592,7 @@
       "website": "https://github.com/lookup-foundation/RevitLookup",
       "githubRepo": "lookup-foundation/RevitLookup",
       "addedAt": "2026-11-21",
+      "released": "2013-10-22",
       "source": "editor",
       "sourceUrl": "https://github.com/lookup-foundation/RevitLookup"
     },
@@ -611,6 +626,7 @@
       "website": "https://www.rhino3d.com/inside/revit/1.0/getting-started",
       "githubRepo": "mcneel/rhino.inside-revit",
       "addedAt": "2026-11-21",
+      "released": "2019-11-04",
       "source": "editor",
       "sourceUrl": "https://www.rhino3d.com/inside/revit/1.0/getting-started"
     },
@@ -688,6 +704,7 @@
       "website": "https://speckle.systems/integrations/revit",
       "githubRepo": "specklesystems/speckle-sharp-connectors",
       "addedAt": "2026-11-21",
+      "released": "2024-07-04",
       "source": "editor",
       "sourceUrl": "https://speckle.systems/integrations/revit"
     },

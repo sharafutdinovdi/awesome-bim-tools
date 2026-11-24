@@ -30,7 +30,7 @@ export const required = Object.freeze([
 ]);
 export const fieldOrder = Object.freeze([
   'slug', 'name', 'vendor', 'category', 'platforms', 'pricing', 'license',
-  'oneLiner', 'website', 'githubRepo', 'appStoreUrl', 'addedAt', 'source', 'sourceUrl', 'logo',
+  'oneLiner', 'website', 'githubRepo', 'appStoreUrl', 'addedAt', 'released', 'source', 'sourceUrl', 'logo',
 ]);
 const fields = new Set(fieldOrder);
 export const toolLimits = Object.freeze({
@@ -190,6 +190,10 @@ export function validateTool(tool, filename = undefined) {
     reject('logo', 'expected logos/<slug>.webp with the tool slug');
   }
   date(tool.addedAt, 'addedAt');
+  if (Object.hasOwn(tool, 'released')) {
+    date(tool.released, 'released');
+    if (tool.released > tool.addedAt) reject('released', 'must not be later than addedAt');
+  }
   return tool;
 }
 

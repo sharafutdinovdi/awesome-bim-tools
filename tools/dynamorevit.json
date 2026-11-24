@@ -11,6 +11,7 @@
   "oneLiner": "Provides a Revit plugin and a library of Dynamo nodes.",
   "website": "https://github.com/DynamoDS/DynamoRevit",
   "addedAt": "2026-11-21",
+  "released": "2014-08-08",
   "source": "community",
   "sourceUrl": "https://github.com/DynamoDS/DynamoRevit",
   "license": "Apache-2.0",
